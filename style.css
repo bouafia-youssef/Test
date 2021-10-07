@@ -1,0 +1,108 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* End Global */
+/* Start body */
+body{
+    font-family: Arial,tahoma;
+}
+/* End body */
+.clearfix{
+    clear: both;
+}
+ul {
+    list-style: none;
+}
+/* Start Header */
+.main {
+  background-color: #333;
+  color: #DDD;
+  padding: 20px;
+  text-align: center;
+}
+/* End Header */
+/* start nav*/
+nav{
+    background-color:gray;
+}
+nav ul{
+    padding: 20px;
+    text-align: center;
+   
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li:after {
+   content: " |"
+} 
+nav ul li:last-child:after {
+    content: ""
+ } 
+
+/* end nave*/
+/* start Main */
+main {
+  background-color: #EEE;
+  padding: 20px;
+}
+main p {
+    text-align: center;
+}
+main p span {
+    font-weight: bold; 
+    color: #888;
+}
+/* end Main */ 
+/* start article*/
+.post{
+    width: 70%;
+    float: left;
+}
+.post article{
+    background-color: gainsboro;
+    border: 1px solid white;
+    margin: 20px;
+}
+.post article header{
+    background-color:silver;
+    padding: 10px;
+}
+.post article section{
+    padding: 10px;
+}
+/* end article*/
+/* Start Sidebar */
+aside {
+    float: right;
+    width: 30%;
+}
+aside section {
+    background-color: #EEE;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+aside section h3 {
+    background-color: #d1d1d1;
+    padding: 10px;
+}
+aside section ul {
+    margin-top: 10px;
+}
+aside section ul li {
+    line-height: 1.6;
+}
+/* End Sidebar */
+/* start footer */
+footer{
+    background-color: #333;
+    color: #DDD;
+    padding: 10px;
+    text-align: right;
+}
+/* end footer */
